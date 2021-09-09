@@ -7,6 +7,12 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     public function index(){
-        return view('home', ['dato' =>'mostra dato']);
+
+        $dato = 'primo valore';
+        $dato1 = 'secondo valore';
+        $dato2 = 'terzo valore';
+
+
+        return view('home', compact('dato', 'dato1', 'dato2'));
     }
 }

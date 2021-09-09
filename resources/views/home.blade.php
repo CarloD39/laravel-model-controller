@@ -7,6 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    {{$dato}}
+
+    <ul>
+        <li>{{$dato}}</li>
+        <li>{{$dato1}}</li>
+        <li>{{$dato2}}</li>
+    </ul>
+    
+    
+    
+
 </body>
 </html>
